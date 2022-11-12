@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    background-color: bisque;
+    width: 100vw;
+    height: 100vh;
+    color:beige;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content: center;
+    align-items: center;
+}
+.container{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.first{ 
+    
+    width: 300px;
+    height: 398px;
+    background-color: #f88020;
+    border: solid #f88020 1px;
+   
+}
+.second{
+    width: 300px;
+    height: 400px;
+    background-color: #068888;
+   
+}
+.third{
+ 
+    width: 300px;
+    height: 395px;
+    background-color: #062925;
+    border: solid #062925 ;
+   
+
+}
+button{
+    margin:20px 0px 15px 20px;
+    cursor: pointer;
+}
+button{
+    padding:10px;
+    width: 120px;
+}
+.bt1{
+        background-color:white;
+        color: #f88020;
+        border-style: none;
+        border-color: white;
+        border-radius: 80px;
+        margin-top: 60px;
+        margin-left: 30px;
+}
+.bt2{
+
+    background-color:white;
+    color: #068888;
+    border-style:none;
+    border-radius: 80px;
+    border-color: white;
+    margin-bottom: 15px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.bt3{
+
+    background-color:white;
+    color: #062925;
+    border-style: none;
+    border-radius: 80px;
+    border-color: white;
+    margin-top: 52px;
+    margin-left: 30px;
+}
+p{
+    margin:15px 15px 6px 30px;
+    font-size: 13px;
+}
+h2{
+    margin:30px;
+    font-family: 'Oswald', sans-serif;
+}
+.im{
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 60px;
+    height: 40px;
+}
+@media (min-width:100px) and (max-width:500px) {
+
+  .container{
+    flex-direction: column;
+    height: fit-content;
+  }
+
+}
